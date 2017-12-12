@@ -30,9 +30,6 @@ public class usingProcessing extends PApplet{
       fill(0,0,0);
       ellipse(ballX, ballY, 50, 50);
       rect(paddleX, paddleY, 30, 20);
-      while (catches < 3) {
-    	  ballY+=10;
-      }
       while (misses < 3) {
         textSize (20);
         text(catches, 25, 35);
